@@ -6,6 +6,13 @@ Tablefy is a plug-in for Bootstrap framework, that permit to manage data paginat
 * pages   Returns the number of pages of this table
 * item    Returns the selected row
 
+* Item 1
+* Item 2
+* Item 3
+  * Item 3a
+  * Item 3b
+  * Item 3c
+
 ### Usage
 #### Simple Example
 ```html
