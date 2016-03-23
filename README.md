@@ -42,14 +42,14 @@ table.item // Returns the selected row
 ```
 ##### Methods
 * Tablefy.prototype.addRow()
-> Add a row into table
-###### Parameters
+#####```Add a row into table```
+##### Parameters
 
- | Name    | Type         | Default | Description           |
- | --------|--------------|---------|-----------------------|
- | row     | Array<String>|         | Add a row into table  |
+ | Name    | Type         | Default | Description                |
+ | --------|--------------|---------|----------------------------|
+ | row     | Array<String>|         | The row that you want add  |
  
-> ##### Syntax
+##### Syntax
 ```javascript
 var table= new Tablefy("table");
 var row=["antonio","roma","3333333345","1200$"];
@@ -57,14 +57,14 @@ table.addRow(row) // Add a row into table
 ```
 
 * Tablefy.prototype.removeRow()
-> Remove a specific row of the table
+###### ```Remove a specific row of the table```
 ###### Parameters
 
- | Name    | Type         | Default | Description                |
- | --------|--------------|---------|----------------------------|
- | row     | Array<String>|         | Remove a row of the table  |
+ | Name    | Type         | Default | Description                  |
+ | --------|--------------|---------|------------------------------|
+ | row     | Array<String>|         | The row that you want remove |
 
-> > ##### Syntax
+###### Syntax
 ```javascript
 var table= new Tablefy("table");
 var row=["antonio","roma","3333333345","1200$"];
