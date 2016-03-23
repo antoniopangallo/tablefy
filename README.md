@@ -42,20 +42,32 @@ table.item // Returns the selected row
 ```
 ##### Methods
 * Tablefy.prototype.addRow()
+> Add a row into table
+###### Parameters
 
-> > ##### Syntax
+ | Name    | Type         | Default | Description           |
+ | --------|--------------|---------|-----------------------|
+ | row     | Array<String>|         | Add a row into table  |
+ 
+> ##### Syntax
 ```javascript
 var table= new Tablefy("table");
+var row=["antonio","roma","3333333345","1200$"];
 table.addRow(row) // Add a row into table
 ```
-> > ##### Parameters
-  row ``` An array of String. Example : ["antonio","roma","3333333345","1200$"] ```
 
 * Tablefy.prototype.removeRow()
+> Remove a specific row of the table
+###### Parameters
+
+ | Name    | Type         | Default | Description                |
+ | --------|--------------|---------|----------------------------|
+ | row     | Array<String>|         | Remove a row of the table  |
 
 > > ##### Syntax
 ```javascript
 var table= new Tablefy("table");
+var row=["antonio","roma","3333333345","1200$"];
 table.removeRow(row) // Remove a specific row of the table
 ```
 > > ##### Parameters
@@ -63,14 +75,14 @@ table.removeRow(row) // Remove a specific row of the table
  
 * Table.prototype.sort()
  
-> > ##### Syntax
+>> ##### Syntax
 ```javascript
 var table= new Tablefy("table");
 table.sort(mode,colum) // Sort a specific colum of the table
 ```
-> > ##### Parameters
-  * mode ``` Possible values "asc" and "desc". ```
-  * colum ``` The colum number that you want order". ```
+>> ##### Parameters
+  * mode ``` A string whit possible values "asc" and "desc" ```
+  * colum ``` The colum number that you want order"  ```
 
 ### Usage
 #### Simple Example
