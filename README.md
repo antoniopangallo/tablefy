@@ -40,6 +40,37 @@ table.length // Returns the number of rows of this table
 table.pages // Returns the number of pages of this table
 table.item // Returns the selected row
 ```
+##### Methods
+* Tablefy.prototype.addRow()
+
+> > ##### Syntax
+```javascript
+var table= new Tablefy("table");
+table.addRow(row) // Add a row into table
+```
+> > ##### Parameters
+  row ``` An array of String. Example : ["antonio","roma","3333333345","1200$"] ```
+
+* Tablefy.prototype.removeRow()
+
+> > ##### Syntax
+```javascript
+var table= new Tablefy("table");
+table.removeRow(row) // Remove a specific row of the table
+```
+> > ##### Parameters
+  row ``` An array of String. Example : ["antonio","roma","3333333345","1200$"] ```
+ 
+* Table.prototype.sort()
+ 
+> > ##### Syntax
+```javascript
+var table= new Tablefy("table");
+table.sort(mode,colum) // Sort a specific colum of the table
+```
+> > ##### Parameters
+  * mode ``` Possible values "asc" and "desc". ```
+  * colum ``` The colum number that you want order". ```
 
 ### Usage
 #### Simple Example
