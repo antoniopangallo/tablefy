@@ -5,14 +5,28 @@ Tablefy is a plug-in for Bootstrap framework, that permit to manage data paginat
 var table= new Tablefy([HTMLElement || DOMidProperty] [,opt ]);
 ```
 ##### Parameters
-* **HTMLElement**
-* **DOMidProperty**
-* **opt**
+* *HTMLElement*
+* *DOMidProperty*
+* *opt*
+  * 
+```javascript
+{
+            showElemet:10,
+            showSearch:true,
+            showEdit:true,
+            showDelete:true,
+            showAdd:true,
+            ajax:{
+                    url: "classes/read.php",
+                    data: { read:"client" }
+                 } 
+}
+```
 
 #### Properties
-* **length** 
-* **pages**   
-* **item**    
+* *length* 
+* *pages*   
+* *item*    
 
 ##### Syntax
 ```javascript
