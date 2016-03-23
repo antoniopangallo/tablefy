@@ -6,12 +6,12 @@ var table= new Tablefy( HTMLElement || DOMidProperty[, opt ]);
 ```
 ##### Parameters
 * *HTMLElement*
- ```javascript 
+ ```
      var table= new Tablefy(document.getElementById("table"));
 ```
 * *DOMidProperty*
- ```javascript 
-     var table= new Tablefy("table");
+ ``` 
+   var table= new Tablefy("table");
 ```
 * *opt*
 ```javascript
