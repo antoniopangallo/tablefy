@@ -8,17 +8,16 @@ var table= new Tablefy([HTMLElement || DOMidProperty] [,opt ]);
 * *HTMLElement*
 * *DOMidProperty*
 * *opt*
-  * 
 ```javascript
-{
-            showElemet:10,
-            showSearch:true,
-            showEdit:true,
-            showDelete:true,
-            showAdd:true,
+var opt = {
+            showElemet:10,     // numbers max of rows for page
+            showSearch:true,   // if is true show the search bar
+            showEdit:true,     // if is true show the Edit Button
+            showDelete:true,   // if is true show the Delete Button
+            showAdd:true,      // if is true show the Add Button
             ajax:{
-                    url: "classes/read.php",
-                    data: { read:"client" }
+                    url: "path/test.php", // A string containing the URL to which the request is sent.
+                    data: { param :"foo", ... }  // Data to be sent to the server.
                  } 
 }
 ```
