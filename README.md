@@ -163,3 +163,18 @@ var data=[
 ];
 table.setDataTable(data);
 ```
+#### Example Ajax 
+```javascript
+var opt = {
+            showElemet:20,     // numbers max of rows for page
+            showSearch:true,   // if is true show the search bar
+            showEdit:true,     // if is true show the Edit Button
+            showDelete:true,   // if is true show the Delete Button
+            showAdd:true,      // if is true show the Add Button
+            ajax:{
+                    url: "client/read.php", // A string containing the URL to which the request is sent.
+                    data: { read : "client" }  // Data to be sent to the server.
+                 } 
+}
+var table= new Tablefy("table",opt);
+```
