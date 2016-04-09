@@ -1,6 +1,7 @@
 # Tablefy
 Tablefy is a plug-in for Bootstrap framework, that permit to manage data pagination into a table, the addition, removal and editing a row, the instant search and the columns ordering.
-You can see Tablefy in action at [http://antoniopangallo.github.io/tablefy](http://antoniopangallo.github.io/tablefy) inline link.
+
+You can see Tablefy in action at [http://antoniopangallo.github.io/tablefy](http://antoniopangallo.github.io/tablefy).
 
 #### Create a Tablefy
 ```javascript
